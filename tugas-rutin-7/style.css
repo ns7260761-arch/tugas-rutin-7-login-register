@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a5acd, #ff4d94);
+    min-height: 100vh;
+}
+
+/* ---------- Auth pages (login/register) ---------- */
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 40px 36px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.auth-card h1 {
+    font-size: 26px;
+    margin-bottom: 4px;
+    color: #2b2b3d;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #6a5acd;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a5acd, #ff4d94);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.switch-link {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
+
+.switch-link a {
+    color: #6a5acd;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.alert {
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.alert-error {
+    background: #ffe3e3;
+    color: #c0392b;
+    border: 1px solid #ffbcbc;
+}
+
+.alert-success {
+    background: #e3fcec;
+    color: #1e8449;
+    border: 1px solid #b8f0cf;
+}
+
+/* ---------- Dashboard ---------- */
+.dashboard-container {
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 16px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2b2b3d;
+}
+
+.btn-logout {
+    background: #ff4d94;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.welcome-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 36px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card h1 {
+    font-size: 22px;
+    color: #2b2b3d;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    list-style: none;
+    margin: 16px 0;
+    background: #f7f6ff;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.user-info li {
+    padding: 4px 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.note {
+    font-size: 12px;
+    color: #888;
+    margin-top: 14px;
+}
